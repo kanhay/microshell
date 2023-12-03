@@ -41,6 +41,7 @@ int	main(int ac, char **av, char **env)
 {
 	int	i;
 	int	pipe_end[2];
+	int	s_out;
 
 	i = 0;
 	av++;
